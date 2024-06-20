@@ -1,5 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import GetAllYSER from './components/GetAllYSER';
+import SearchYser from './components/SearchYSER';
+import CreateOpportunity from './components/CreateOpportunity';
+import GetAllOpportunities from './components/GetAllOpportunity';
+import GetOpportunitiesByUserId from './components/GetAllOpportunitiesByUser';
+import GetOpportunitiesByCategory from './components/GetOpportunitiesByCategory';
+import DeleteOpportunity from './components/DeleteOpportunity';
+import EditOpportunity from './components/EditOpportunity';
+import CreateReport from './components/CreateReport';
+import GetAllReports from './components/GetAllReports';
+import ResolveReport from './components/ResolveReport';
 
 function App() {
   return (
@@ -18,6 +29,17 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <GetAllYSER/> */}
+      {/* <SearchYser/> */}
+      {/* <CreateOpportunity/> */}
+      {/* <GetAllOpportunities/> */} 
+      {/* <GetOpportunitiesByUserId/> */}
+      {/* <GetOpportunitiesByCategory/> */}
+      {/* <DeleteOpportunity/> */}
+      {/* <EditOpportunity/> */}
+      {/* <CreateReport/> */}
+      {/* <GetAllReports/> */}
+      <ResolveReport/>
     </div>
   );
 }
